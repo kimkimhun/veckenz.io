@@ -9,7 +9,7 @@
   <meta name="author" content="">
 
   <title>Veckenz Portfolio</title>
-
+  <link rel="shortcut icon" type="image/png" href="./img/coding.png"/>
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -58,7 +58,9 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h1 class="brand-heading">Welcome</h1>
-            <p>veckenz developer</p>
+            <p class="typewrite" data-period="2000" data-type='[ "Hi, Im Veckenz Developer.", "Eat Dev Sleep.", "I Love Learn.", "I Love to Design.", "I Love to Develop." ]'>
+              <span class="wrap"></span>
+            </p>
             <a href="#about" class="btn btn-circle js-scroll-trigger">
               <i class="fa fa-angle-double-down animated"></i>
             </a>
@@ -75,16 +77,13 @@
         <div class="col-lg-8 mx-auto">
           <h2>About</h2>
 
-          <img class="avatar" src="./img/kimz.jpg" alt="kim"/>
+          <img class="avatar" src="./img/kimz.jpg" alt="kim" />
 
-          <p>Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the
-            template on
-            <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-          <p>This theme features stock photos by
-            <a href="http://gratisography.com/">Gratisography</a>
-            along with a custom Google Maps skin courtesy of
-            <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-          <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with SASS and LESS files for easy customization!</p>
+          <h3> CHAKKRAWUT KUNTAKUM</h3>
+          <p>
+            <i class="fa fa-birthday-cake fa-fw"></i> Birthday 12 Apirl 1995
+            <br/> Make today the best
+          </p>
         </div>
       </div>
     </div>
@@ -97,14 +96,43 @@
         <h2>Skill</h2>
       </div>
     </div>
-    <div class="container">
-      <div class="col-lg-6 mx-auto">
-        <h2>Skill</h2>
+    <div class="row">
+      <div class="col-md-4 mx-auto">
+        <img src="./img/technology/html5.png" width="200" alt="HTML5" class="img-rounded">
       </div>
-      <div class="col-lg-8 mx-auto">
-        <h2>Skill</h2>
+      <div class="col-md-4 mx-auto">
+        <img src="./img/technology/css.png" width="200" alt="img" class="img-rounded">
+      </div>
+      <div class="col-md-4 mx-auto">
+        <img src="./img/technology/javascript.png" width="200" alt="img" class="img-rounded">
       </div>
     </div>
+    <br>
+    <div class="row">
+        <div class="col-md-4 mx-auto">
+            <img src="./img/technology/vue.png" width="200" alt="img" class="img-rounded">
+          </div>
+      <div class="col-md-4 mx-auto">
+        <img src="./img/technology/nodejs.png" width="200" alt="img" class="img-rounded">
+      </div>
+      <div class="col-md-4 mx-auto">
+        <img src="./img/technology/mongodb-logo.png" width="200" alt="img" class="img-rounded">
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-4 mx-auto">
+        <img src="./img/technology/asp.net.png" width="200" alt="img" class="img-rounded">
+      </div>
+      <div class="col-md-4 mx-auto">
+        <img src="./img/technology/sqlserver.jpg" width="200" alt="img" class="img-rounded">
+      </div>
+      <div class="col-md-4 mx-auto">
+        <img src="./img/technology/git.png" width="200" alt="img" class="img-rounded">
+      </div>
+    </div>
+    <br>
+
   </section>
 
   <!-- Contact Section -->
@@ -113,7 +141,7 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2>Contact</h2>
-          <p>36 moo 4 Sanmakha Padad Chiangrai </p>
+          <p>36 moo 4 Sanmakha Padad Chiangrai Thailand</p>
           <ul class="list-inline banner-social-buttons">
             <li class="list-inline-item">
               <a href="tel:+0942507088" class="btn btn-primary btn-lg">
@@ -128,13 +156,13 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://github.com/kimkimhun/" class="btn btn-primary btn-lg">
+              <a target="_blank" href="https://github.com/kimkimhun/" class="btn btn-primary btn-lg">
                 <i class="fa fa-github fa-fw"></i>
                 <span class="network-name">Github</span>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://www.instagram.com/veckenz/" class="btn btn-primary btn-lg">
+              <a target="_blank" href="https://www.instagram.com/veckenz/" class="btn btn-primary btn-lg">
                 <i class="fa fa-instagram fa-fw"></i>
                 <span class="network-name">Instagram</span>
               </a>
@@ -148,7 +176,7 @@
   <!-- Footer -->
   <footer>
     <div class="text-center">
-      <p>Copyright &copy; Your Website 2018</p>
+      <p>Copyright &copy; 2018</p>
     </div>
   </footer>
 
@@ -164,6 +192,8 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/grayscale.min.js"></script>
+  <script src="js/custom.js"></script>
+
 
 </body>
 
